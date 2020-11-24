@@ -233,9 +233,6 @@
     }
 }
 @media (max-width: 355px) {
-    .bgBlack {
-        background-color: #f5210b;
-    }
     .calculator-grid {
         grid-template-rows: minmax(25%, auto) repeat(6, 7%);
     }
