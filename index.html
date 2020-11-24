@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body id="bodyColor" class="bgBlack">
+  <div class="modal">
+    <div class="modal__wrap">
+      <span class="modal__close">x</span>
+      <div class="modal__content">
+        <h2 class="modal__title"></h2>
+        <p class="modal__text"></p>
+      </div>
+    </div>
+  </div>
+  <div class="calculator-grid">
+    <div id="outputColor" class="output">
+      <div id="prevOperColor" data-previous-operand class="previous-operand"></div>
+      <div id="curOperColor" data-current-operand class="current-operand">0</div>
+    </div>
+    <button data-all-clear class="color-clear">AC</button>
+    <button data-delete class="color-clear">DEL</button>
+    <button data-change-sign class="color-clear">+/-</button>
+    <button data-operation class="color-operation">÷</button>
+    <button data-sqrt class="color-operation">√</button>
+    <button data-operation class="color-operation">^</button>
+    <button data-smile class="color-operation">&#128526;</button>
+    <button data-operation class="color-operation">x</button>
+    <button data-number class="color-number">7</button>
+    <button data-number class="color-number">8</button>
+    <button data-number class="color-number">9</button>
+    <button data-operation class="color-operation">-</button>
+    <button data-number class="color-number">4</button>
+    <button data-number class="color-number">5</button>
+    <button data-number class="color-number">6</button>
+    <button data-operation class="color-operation">+</button>
+    <button data-number class="color-number">1</button>
+    <button data-number class="color-number">2</button>
+    <button data-number class="color-number">3</button>
+    <button data-equals class="color-operation row-span">=</button>
+    <button data-number class="color-number column-span">0</button>
+    <button data-number class="color-number">.</button>
+  </div>
+</body>
+</html>
